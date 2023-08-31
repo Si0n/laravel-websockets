@@ -29,16 +29,16 @@
         }
     ],
     "require": {
-        "php": "^8.0|^8.1",
+        "php": "^8.2",
         "cboden/ratchet": "^0.4.4",
         "clue/block-react": "^1.5",
         "clue/reactphp-sqlite": "^1.0",
         "clue/redis-react": "^2.6",
-        "doctrine/dbal": "^2.9",
+        "doctrine/dbal": "^3.6",
         "evenement/evenement": "^2.0|^3.0",
         "facade/ignition-contracts": "^1.0",
         "guzzlehttp/psr7": "^1.5",
-        "illuminate/broadcasting": "^9.0",
+        "illuminate/broadcasting": "*",
         "illuminate/console": "^9.0",
         "illuminate/http": "^9.0",
         "illuminate/queue": "^9.0",
@@ -46,7 +46,7 @@
         "illuminate/support": "^9.0",
         "pusher/pusher-php-server": "^6.0|^7.0",
         "react/mysql": "^0.5",
-        "react/promise": "^2.8",
+        "react/promise": "^2.10",
         "symfony/http-kernel": "^5.0|^6.0",
         "symfony/psr-http-message-bridge": "^1.1|^2.0"
     },
