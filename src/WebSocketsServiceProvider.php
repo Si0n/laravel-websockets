@@ -100,6 +100,7 @@ class WebSocketsServiceProvider extends ServiceProvider
 
     protected function registerSQLiteDatabase()
     {
+        /*
         $this->app->singleton(DatabaseInterface::class, function () {
             $factory = new SQLiteFactory($this->app->make(LoopInterface::class));
 
@@ -113,13 +114,13 @@ class WebSocketsServiceProvider extends ServiceProvider
                 ->in(__DIR__.'/../database/migrations/sqlite')
                 ->name('*.sql');
 
-            /** @var SplFileInfo $migration */
             foreach ($migrations as $migration) {
                 $database->exec($migration->getContents());
             }
 
             return $database;
         });
+        */
     }
 
     protected function registerMySqlDatabase()
